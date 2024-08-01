@@ -1,0 +1,82 @@
+body{
+    border:5px solid brown;
+    width:800px;
+    height:1500px;
+}
+.serial{
+    display:flex;   
+}
+#image1{
+    margin-left:150px;
+}
+#image2{
+    margin-left:200px;
+}
+.curve-text-container {
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.curve-text {
+    font-size: 20px;
+    fill: #333;
+    color:brown;
+}
+.clg p{
+    color:brown;
+    font-size:19px;
+}
+.clg h1{
+    color:burlywood;
+    font-size:35px;
+} 
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+   
+    
+}
+
+table , th, td {
+    border: 1px solid #000;
+}
+
+ th, td {
+    padding: 10px;
+    text-align: center;
+}
+.results {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.footer {
+    
+    margin-top: 40px;
+    display:flex;
+    
+}
+.footer #para{
+    margin-left:300px;
+}
+
+input[type="text"], input[type="number"] {
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+    width: calc(100% - 20px);
+    text-align: center;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+

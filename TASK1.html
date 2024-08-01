@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Mark Sheet</title>
+    <link rel="stylesheet" href="TASK1.css">
+</head>
+<body>
+    <div class="container">
+        <div class="serial">
+         <h3>Sr.No. <span style="color:red">00000000</span></h3>
+         <img src="https://tse4.mm.bing.net/th?id=OIP.KiVi89do8tJmo7_dJ6LItQHaHa&pid=Api&P=0&h=180" alt="College Logo" height="200px" width="200px" id="image1">
+         <img src="https://www.qr-code-generator.com/wp-content/themes/qr/images/banners/frames/websiteQRCode_noFrame.png" height="100px" width="100px" id="image2">
+        </div>
+        <div class="curve-text-container">
+            <svg width="500" height="150" viewBox="0 0 500 150">
+                <path id="curve" d="M10,80 Q250,10 490,85" fill="transparent"/>
+                <text width="500">
+                    <textPath xlink:href="#curve" startOffset="50%" text-anchor="middle" class="curve-text">
+    
+                       All India Institute of Fire Technology and Safety Management
+                    </textPath>
+                </text>
+            </svg>
+               <div class="clg">
+                <p><b>Associated with Technical and Paramedical Education Council<br>
+                An Autonomous Institution Recognized by Government of India</b></p>
+                <h1>Annual Statement of Marks</h1>
+            </div>
+
+        </div>
+        <table>
+            <tr>
+                <td colspan="2" ><span style="color:brown"><strong>Name of the Candidate </strong></span><br><br><strong>C.R.AARTHI</strong></td>
+                <td colspan="2"><span style="color:brown"><strong>Course name with Code</strong></span><br><br><strong> Diploma in Fire & Safety Management (DFS012)</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            </tr>
+            <tr>
+                <td  colspan="1"><span style="color:brown"><strong>Reg.No.</strong></span><br><br><strong>720821108001</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                    <td  colspan="1"><span style="color:brown"><strong>Enrollment No.</strong></span><br><br><strong>720821108001</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                        <td colspan="2" ><span style="color:brown"><strong>Authorized Training Centre Name with Code</strong></span><br><br><strong>hindusthan</strong><br><strong>641032</strong>&nbsp;&nbsp;&nbsp;&nbsp;</td>    
+            </tr>
+        </table>
+        <table id="main">
+            <thead>
+                <tr>
+                    <th><span style="color:brown">Subject Code</span></th>
+                    <th><span style="color:brown">Subject Name</span></th>
+                    <th><span style="color:brown">Max. Marks</span></th>
+                    <th colspan="2"><span style="color:brown">Marks Obtained</span></th>
+                    <th><span style="color:brown">Total</span></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>DFS012-101</td>
+                    <td>Fire Science and Technology</td>
+                    <td>100</td>
+                    <td><input type="number" class="marks" placeholder="Theory" onchange="calculateTotal(this)"></td>
+                    <td><input type="number" class="marks" placeholder="Practical" onchange="calculateTotal(this)"></td>
+                    <td><span class="total-marks">0</span></td>
+                </tr>
+                <tr>
+                    <td>DFS012-102</td>
+                    <td>Fire Prevention and Investigation</td>
+                    <td>100</td>
+                    <td><input type="number" class="marks" placeholder="Theory" onchange="calculateTotal(this)"></td>
+                    <td><input type="number" class="marks" placeholder="Practical" onchange="calculateTotal(this)"></td>
+                    <td><span class="total-marks">0</span></td>
+                </tr>
+                <tr>
+                    <td>DFS012-103</td>
+                    <td>Fire Protection and Control</td>
+                    <td>100</td>
+                    <td><input type="number" class="marks" placeholder="Theory" onchange="calculateTotal(this)"></td>
+                    <td><input type="number" class="marks" placeholder="Practical" onchange="calculateTotal(this)"></td>
+                    <td><span class="total-marks">0</span></td>
+                </tr>
+                <tr>
+                    <td>DFS012-104</td>
+                    <td>Fire Extinction and Control</td>
+                    <td>100</td>
+                    <td><input type="number" class="marks" placeholder="Theory" onchange="calculateTotal(this)"></td>
+                    <td><input type="number" class="marks" placeholder="Practical" onchange="calculateTotal(this)"></td>
+                    <td><span class="total-marks">0</span></td>
+                </tr>
+                <tr>
+                    <td>DFS012-105</td>
+                    <td>Industrial Safety Management</td>
+                    <td>100</td>
+                    <td><input type="number" class="marks" placeholder="Theory" onchange="calculateTotal(this)"></td>
+                    <td><input type="number" class="marks" placeholder="Practical" onchange="calculateTotal(this)"></td>
+                    <td><span class="total-marks">0</span></td>
+                </tr>
+                <tr>
+                    <td>DFS012-106</td>
+                    <td>Practical I</td>
+                    <td>100</td>
+                    <td><input type="number" class="marks" placeholder="Theory" onchange="calculateTotal(this)"></td>
+                    <td><input type="number" class="marks" placeholder="Practical" onchange="calculateTotal(this)"></td>
+                    <td><span class="total-marks">0</span></td>
+                </tr>
+                <tr>
+                    <td>DFS012-107</td>
+                    <td>Practical II</td>
+                    <td>100</td>
+                    <td><input type="number" class="marks" placeholder="Theory" onchange="calculateTotal(this)"></td>
+                    <td><input type="number" class="marks" placeholder="Practical" onchange="calculateTotal(this)"></td>
+                    <td><span class="total-marks">0</span></td>
+                </tr>
+                <tr>
+                    <td>DFS012-108</td>
+                    <td>Practical III</td>
+                    <td>100</td>
+                    <td><input type="number" class="marks" placeholder="Theory" onchange="calculateTotal(this)"></td>
+                    <td><input type="number" class="marks" placeholder="Practical" onchange="calculateTotal(this)"></td>
+                    <td><span class="total-marks">0</span></td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="results" rowspan="1" colspan="6" width="800px" >
+            <tr>
+            <td><span style="color:brown"><strong>Grand Total:</strong></span> <span id="grandTotal">000</span><br>
+                <span style="color:brown"> <strong>In Words:</strong></span> <span id="inWords">Zero Hundred Zero Zero</span></td>
+        </tr>
+        </table>
+        <table>
+            <tr>
+            <td><span style="color:brown"><strong>Month and Year of Examination:</strong></span> May 2020</td>
+            <td><span style="color:brown"><strong>No. of Subject Offered:</strong> </span>T5+P3=8</td>
+            <td><span style="color:brown"><strong>Result:</strong> </span>PASS</td>
+            <td><span style="color:brown"><strong>Percentage:</strong></span> <span id="percentage">00.00%</span></td>
+            <td><span style="color:brown"><strong>Grade:</strong> </span><span id="grade">(Grade)</span></td>
+            </tr>
+        </table>
+
+        <div class="footer">
+            <p><span style="color:brown"><strong>Date:</strong></span>01.08.2024</p>
+            <p id="para"><strong>(Signature of Deputy Controller of Examination)</strong><br>
+                <span style="color:brown"> <strong>Deputy Controller of Examination</strong></p>
+        </div>
+        <H3 style="margin-left:200px"><span style="color:brown">Subject marked with * indicates Exemption</span></H3>
+    </div>
+    <script src="TASK1.js"></script>
+</body>
+</html>
+
+
